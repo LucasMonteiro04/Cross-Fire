@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: url("https://br-crossfire.akamaized.net/cfbr/templates/assets/imgs/landing/bg_orig_br_0112.jpg") center -36px no-repeat;
+    position: relative;
+    height: 1245px;
+    width: 100vw;
+
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100vw; /*comprimento*/
+    height: 40px; /*altura*/
+    background-color: black;
+    text-align: right;
+}
+
+h1 {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 57px;
+}
+section {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.adress {
+    width:350px;
+    height: 49px;
+    background:#2a303a;
+    font-size: 14px;
+    line-height: 49px;
+    border: none;
+    border-bottom: 1px solid#414a5a;
+    padding:0 12px;
+}
+.formulario {
+    display: flex;
+    justify-content:start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.text {
+    display:flex;
+    justify-content:start;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.text span {
+    color:#fff;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+p {
+    font-size: 11px;
+}
+
+footer {
+    background-color: black;
+    padding-top: 114px;
+    padding-bottom: 29px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+footer p {
+    color: #8e8e8e;
+    margin: left 100px;
+    text-align: left;
+
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer span a {
+    font-size: 11px;
+    color:#ff9c00;
+    text-align: left;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+footer span {
+    text-align: left;
+}
+
+#robo {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    border: 1px solid #d3d3d3;
+    height: 74px;
+    width: 300px;
+    align-items: center;
+}
+
+#captcha {
+    text-align: right;
+    color: #555;
+}
+
+#captcha p {
+    text-align: right;
+    font-size: 10px;
+    color: #555;
+}
+
+#captcha img {
+    height: 32px;
+    margin-left: 13px;
+    margin-right: 13px;
+
+}
+
+#robo div input {
+    height:32px;
+    width:32px;
+}
+
+#robo2 {
+    display: flex;
+    align-items: center;
+}
+#robo2 label {
+    margin-left: 10px;
+    font-size: 14px;
+}
